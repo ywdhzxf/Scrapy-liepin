@@ -1,0 +1,3 @@
+有两个蜘蛛,一个通过ReidsCrawlSpider进行爬取所有详情页面,
+一个通过RedisSpider进行页面分析,组合详情页url,进行爬取.
+都采用分布式进行爬取,用redis数据库进行缓存,灾后导入mysql数据库里.
